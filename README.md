@@ -1,6 +1,6 @@
 🚧 UNDER CONSTRUCTION 🚧
 
-Currently building Catalog, the ultimate organization tool for students. App users will be able to:
+I am currently building Catalog, the ultimate organization tool for students. App users will be able to:
 - Manage their schedule
 - Find peers in their courses and create study groups
 - Record and transcribe lectures, using OpenAI Whisper
