@@ -1,3 +1,11 @@
+🚧 UNDER CONSTRUCTION 🚧
+Currently building Catalog, the ultimate organization tool for students. App users will be able to:
+- Manage their schedule
+- Find peers in their courses and create study groups
+- Record and transcribe lectures, using OpenAI Whisper
+- Keep track of daily expenses
+_____________________________________________________________________________________________________________________________________________
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
