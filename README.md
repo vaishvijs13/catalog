@@ -1,10 +1,12 @@
-🚧 UNDER CONSTRUCTION 🚧
+🚧 Under Construction 🚧
 
-I am currently building Catalog, the ultimate organization tool for students. App users will be able to:
+I am currently building Catalog, the ultimate organization tool for students. The app is designed for students to:
 - Manage their schedule
 - Find peers in their courses and create study groups
-- Record and transcribe lectures, using OpenAI Whisper
+- Record and transcribe lectures
 - Keep track of daily expenses
+
+Built with: Next.js, MongoDB, Tailwind CSS, OpenAI Whisper
 _____________________________________________________________________________________________________________________________________________
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

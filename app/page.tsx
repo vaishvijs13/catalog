@@ -1,21 +1,22 @@
+"use client";
+
 import Link from 'next/link';
+import Image from "next/image";
+import LoginForm from './components/LoginForm';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-900 text-white">
-      <main className="flex flex-col items-center justify-center px-20 flex-1 text-center">
-        <h2 className="text-5xl md:text-7xl font-bold font-serif leading-tight mb-8">catalog</h2>
-        <h3 className="text-xl md:text-4xl font-thin leading-tight mb-12">the ultimate organization tool for students</h3>
-        <div className="space-x-4">
-        <Link href="/login"  className="bg-gray-400 hover:bg-gray-600 text-black font-bold py-4 px-8 rounded transition duration-300 ease-in-out font-mono">
-            Log In
-        </Link>
-        <Link href="/signup" className="bg-gray-400 hover:bg-gray-600 text-black font-bold py-4 px-8 rounded transition duration-300 ease-in-out font-mono">
-            Sign Up
-        </Link>
+    <div className="flex flex-col bg-slate-900 min-h-screen">
+      <div className="flex flex-col md:flex-row px-24 flex-grow">
+        <div className="w-3/4 text-left md:px-2">
+          <h2 className="text-5xl md:text-9xl font-bold font-serif leading-tight mt-60 mb-10 text-gray-light">catalog</h2>
+          <h3 className="text-xl md:text-3xl font-thin leading-tight mb-12 text-gray-light">the ultimate organization tool for students</h3>
+        </div>
+        <div className="w-1/4">
+          <LoginForm />
+        </div>
       </div>
-      </main>
-      <footer className="w-full max-w-4xl p-6 text-center">
+      <footer className="w-full p-6 text-center text-gray-light mb-12 md:mb-0">
         <p>© 2024 catalog. All rights reserved.</p>
       </footer>
     </div>
